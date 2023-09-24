@@ -67,3 +67,20 @@ footer {
 .button:hover {
     background-color: #E64A19; /* Mörkare orange för hover-effekt */
 }
+
+.dark-mode {
+    background-color: #333;
+    color: #f4f4f4;
+}
+
+.dark-mode header, .dark-mode section, .dark-mode footer {
+    background-color: #444;
+}
+
+.dark-mode h1, .dark-mode h2, .dark-mode strong {
+    color: #4CAF50;
+}
+
+.dark-mode header {
+    border-color: #4CAF50;
+}
