@@ -1,0 +1,69 @@
+/* Grundinställningar */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header,
+section,
+footer {
+    padding: 20px 40px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    border-bottom: 3px solid #4CAF50; /* Grön färg */
+}
+
+header h1 {
+    margin: 0;
+    color: #4CAF50; /* Grön färg */
+}
+
+header p {
+    color: #666; /* Mörkgrå färg */
+}
+
+h2 {
+    border-bottom: 2px solid #ddd; /* Ljusgrå färg */
+    padding-bottom: 10px;
+}
+
+.education-item,
+.experience-item {
+    margin-bottom: 20px;
+}
+
+strong {
+    color: #4CAF50; /* Grön färg */
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* CTA-styling (ex. för att lägga till en knapp) */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #ffffff;
+    background-color: #FF5722; /* CTA-färg (Orange) */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #E64A19; /* Mörkare orange för hover-effekt */
+}
