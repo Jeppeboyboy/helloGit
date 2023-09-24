@@ -84,3 +84,18 @@ footer {
 .dark-mode header {
     border-color: #4CAF50;
 }
+
+/* Centrerar knappen på skärmen */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Sätter höjden till hela skärmens höjd */
+    position: relative; /* Så att andra innehåll inte påverkas av flexbox */
+}
+
+/* Knappens styling */
+button {
+    position: absolute; /* Ta bort knappen från dokumentflödet */
+    z-index: 1; /* Se till att knappen ligger ovanpå andra element */
+}
